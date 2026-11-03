@@ -1,0 +1,9 @@
+{
+  "chapters": [
+    {"number": 1, "text": "林舟在地窖取得钥匙，林月是他的妹妹。", "events": [{"key": "get", "title": "取得钥匙", "quote": "林舟在地窖取得钥匙"}], "holder": "p1"},
+    {"number": 5, "text": "在地窖门外，林舟把钥匙交给林月。", "events": [{"key": "give", "title": "交接钥匙", "quote": "林舟把钥匙交给林月。"}], "holder": "p2"},
+    {"number": 10, "text": "林月向林舟提起地窖的秘密，但没有询问钥匙。", "events": [{"key": "suspect", "title": "怀疑地窖", "quote": "林月向林舟提起地窖的秘密"}]},
+    {"number": 20, "text": "林舟告诉林月，钥匙在交接前已于地窖修好；随后，他说出了地窖密码：青石。", "events": [{"key": "repair", "title": "回忆修复", "quote": "钥匙在交接前已于地窖修好", "mention_kind": "recollection"}, {"key": "disclose", "title": "告知密码", "quote": "他说出了地窖密码：青石。"}], "secret": true},
+    {"number": 25, "text": "林月回忆起林舟在地窖将钥匙交给她的经过。", "events": [{"key": "retell", "title": "复述交接", "quote": "林月回忆起林舟在地窖将钥匙交给她的经过。", "mention_kind": "retelling"}]}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "note": "人为植入错误并附带标准标注的验收样稿，不用于声明任意小说的自动理解准确率。",
+  "chapters": [
+    {
+      "number": 1,
+      "tick": 0,
+      "title": "取得钥匙",
+      "text": "林舟取得唯一的钥匙并独自保管。地窖密码是青石。此世铁门绝不能被穿墙通过。门前留下神秘划痕，远处雾气缭绕。",
+      "facts": [
+        {"subject": "key", "predicate": "持有人", "object_value": "林舟", "object_entity": "zhou"},
+        {"subject": "room", "predicate": "密码", "object_value": "青石"},
+        {"subject": "rule", "predicate": "通行限制", "object_value": "铁门不得穿墙"}
+      ],
+      "threads": ["门前划痕", "远处雾气"]
+    },
+    {
+      "number": 2,
+      "tick": 2,
+      "title": "正常交接",
+      "text": "林舟把唯一的钥匙交给林月。从此林月独自保管，直到第五章销毁它之前都未交给别人。",
+      "facts": [
+        {"subject": "key", "predicate": "持有人", "object_value": "林月", "object_entity": "yue"}
+      ]
+    },
+    {
+      "number": 3,
+      "tick": 3,
+      "title": "冲突与使用密码",
+      "text": "林舟又独自持有同一把钥匙，林月仍未交还。林月输入青石打开地窖，她此前未曾获知密码。林舟同时穿墙通过了那扇铁门。",
+      "facts": [
+        {"subject": "key", "predicate": "持有人", "object_value": "林舟", "object_entity": "zhou"},
+        {"subject": "door", "predicate": "穿墙", "object_value": "成功"}
+      ]
+    },
+    {
+      "number": 4,
+      "tick": 4,
+      "title": "获知密码",
+      "text": "林舟这才第一次告诉林月，地窖密码是青石。林月说自己此前从未听过这个口令。",
+      "facts": []
+    },
+    {
+      "number": 5,
+      "tick": 5,
+      "title": "销毁与解释",
+      "text": "林月销毁了钥匙。林舟发现门前划痕原来是藏宝图的刻线，但图案仍缺少一角。",
+      "facts": []
+    },
+    {
+      "number": 6,
+      "tick": 1,
+      "title": "倒叙修复",
+      "text": "林舟回忆交接之前修复钥匙的往事。那时林月尚未接到钥匙，铁门也完好无损。",
+      "mention_kind": "recollection",
+      "facts": []
+    }
+  ]
+}

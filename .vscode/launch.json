@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Easy-Writing：离线演示",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "easy_writing",
+      "args": ["demo", "--provider", "fake"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Easy-Writing：配置检查（不联网）",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "easy_writing",
+      "args": ["doctor"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
